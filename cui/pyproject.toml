@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "cui"
+version = "0.1.0"
+description = ""
+authors = ["Muhammad Zain Attiq <zainatteeq@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.35.0"
+streamlit-chat = "^0.1.1"
+langchain = "^0.2.5"
+langchain-core = "^0.2.7"
+ipython = "^8.25.0"
+langchain-openai = "^0.1.8"
+pandas = "^2.2.2"
+starlette = "^0.37.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
